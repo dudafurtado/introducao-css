@@ -1,0 +1,19 @@
+div {
+    height: 400px;
+    width: 250px;
+    margin-bottom: 20px;
+    margin-left: 200px;
+}
+
+
+.como {
+    background-color: blue;
+}
+
+.voce {
+    background-color: blueviolet;
+}
+
+.ta {
+    background-color: brown;
+}

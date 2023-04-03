@@ -1,0 +1,31 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* short-hand */ 
+
+header {
+    height: 200px;
+    width: 150px;
+    background-color: fuchsia;
+}
+
+div.primeira {
+    height: 200px;
+    width: 155px;
+    background-color: gold;
+}
+
+ div.segunda {
+    height: 200px;
+    width: 150px;
+    background-color: black;
+}
+
+
+footer {
+    height: 200px;
+    width: 155px;
+    background-color: gray;
+}

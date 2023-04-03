@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Ordem de Prioridade </title>
+
+    <style>
+        header {
+            color: darkgreen;
+            background-color: deepskyblue;
+        }
+        section {
+            color: darkred;
+            background-color: gold;
+        }
+        footer {
+            color: deepskyblue;
+            background-color: indianred;
+        }
+
+    </style>
+
+    <link href="ordemdeprioridade e efeitocascata.css" rel="stylesheet">
+</head>
+
+<body>
+    <header style="color: blanchedalmond;">
+        <h1> Ordem de Prioridade </h1>
+    </header>
+
+    <section class="oi">
+        <p style="color: blanchedalmond;">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis accusamus assumenda distinctio iure harum maxime nemo ea quae, culpa officia fugiat pariatur dolor cupiditate obcaecati, sapiente saepe!
+        </p>
+        <p>
+            Lorem, ipsum.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus quasi quidem aut distinctio eos cumque doloremque quae animi obcaecati itaque. Quasi repellat eveniet ex harum exercitationem enim libero reiciendis voluptates.
+        </p>
+    </section>
+
+    <section class="tchau bye">
+        <div>
+            Efeito Cascata imbutido ao qual funciona baseado no arquivo interno de stylesheet
+        </div>
+    </section>
+
+    <footer style="color: blanchedalmond;">
+        <p>
+            E é sobre isso.
+        </p>
+    </footer>
+</body>
+
+<!-- Essa ordem de prioridade, 1° o link externo por ter sido primeiro, depois o style no head por ter sido o segundo e leva como maior importância o style inline --> 
+
+</html> 

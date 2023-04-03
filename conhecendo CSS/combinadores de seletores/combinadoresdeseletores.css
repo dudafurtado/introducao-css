@@ -1,0 +1,19 @@
+header h2 {
+    color: aqua;
+    background-color: black;
+}
+
+/* um do lado do outro segue o conceito de herença, ou seja, todo os h2 dentro de header irão adquirir a regra instruida */
+
+header > h2 {
+    color: coral;
+}
+
+/* o simbolo de  > representa que somente o primeiro elemento indicado a seguir vai adquirir a regra */
+
+section, footer {
+    color: deeppink;
+    background-color: forestgreen;
+}
+
+/* quando usa , queremos dizer ou */

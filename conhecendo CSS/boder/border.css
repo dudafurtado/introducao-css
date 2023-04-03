@@ -1,0 +1,20 @@
+div {
+    height: 400px;
+    width: 250px;
+    border: 10px solid green;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+
+.oi {
+    background-color: blue;
+}
+
+.tudo {
+    background-color: blueviolet;
+}
+
+.bem {
+    background-color: brown;
+}

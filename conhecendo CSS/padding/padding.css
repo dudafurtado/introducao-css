@@ -1,0 +1,19 @@
+div {
+    height: 400px;
+    width: 250px;
+    margin-bottom: 20px;
+    padding: 40px;
+}
+
+
+.cade {
+    background-color: blue;
+}
+
+.voce {
+    background-color: blueviolet;
+}
+
+.aqui {
+    background-color: brown;
+}

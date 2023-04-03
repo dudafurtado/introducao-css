@@ -1,0 +1,18 @@
+section.tchau {
+    color: blueviolet;
+    background-color: cornflowerblue;
+}
+
+section.tchau.bye {
+    color: greenyellow;
+    background-color: orchid;
+}
+
+/* quanto mais especifico maior a importancia e o valor do atributo */
+
+section {
+    color: darkblue;
+    background-color: darkgoldenrod;
+}
+
+/*  quando mais de uma regra é aplicada para o mesmo falor o que é conseiderado é a última criada*/
